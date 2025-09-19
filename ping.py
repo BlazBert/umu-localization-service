@@ -20,7 +20,7 @@ def health_check():
         r.raise_for_status()
         print("🟢 Service be alive ‘n kickin’!")
     except Exception as err:
-        print("🔴 No answer from your FastAPI:", err)
+        print("🔴 No answer from your FastAPI: ", err)
         raise
 
 # 2) Craft one row of feature data (replace w/ your meassured data)
